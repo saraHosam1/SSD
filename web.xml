@@ -32,7 +32,7 @@
          <display-name>PostsRestrictions</display-name>
             <web-resource-collection>
            <web-resource-name> PostsRestriction</web-resource-name>
-            <url-pattern>/demo/post/{postID}</url-pattern>
+            <url-pattern>/demo/post/*</url-pattern>
             <http-method>PUT</http-method>
             <http-method>POST</http-method>
             <http-method>DELETE</http-method>
